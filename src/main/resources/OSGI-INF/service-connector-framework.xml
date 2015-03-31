@@ -1,0 +1,10 @@
+<component name="org.nuxeo.sirona.sap.connector.ServiceConnectorComponent">
+  
+   <implementation class="org.nuxeo.sirona.sap.connector.ServiceConnectorComponent"/>
+   <service>
+        <provide interface="org.nuxeo.sirona.sap.connector.ServiceConnector" />
+        <provide interface="org.nuxeo.sirona.sap.connector.ServiceConnectorAdmin" />
+   </service>
+   
+  
+</component>

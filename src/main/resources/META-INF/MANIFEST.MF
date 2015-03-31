@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: nuxeo-sirona-sap
+Bundle-Version: 1.0.qualifier
+Bundle-Name: nuxeo-sirona-sap
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Nuxeo
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.sirona.sap.FieldValueCh
+ angeCaptureListener.xml,OSGI-INF/extensions/org.nuxeo.sirona.sap.Fiel
+ dValueChangeActionListener.xml,OSGI-INF/service-connector-framework.x
+ ml,OSGI-INF/extensions/org.nuxeo.sirona.sap.migrate.MigratePartNumber
+ Field.xml,OSGI-INF/extensions/org.nuxeo.sirona.sap.migrate.BulkSyncSA
+ PPartNumbers.xml
+
