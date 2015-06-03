@@ -2,7 +2,7 @@
  *
  */
 
-package org.nuxeo.sirona.sap;
+package org.nuxeo.fieldListener;
 
 import java.util.Arrays;
 
@@ -30,10 +30,10 @@ public class FieldValueChangeCaptureListener implements EventListener {
     private static final Log log = LogFactory.getLog(FieldValueChangeCaptureListener.class);
 
     //DocTypes to watch
-    public static final String DOCTYPE = "SironaDocument";
+    public static final String DOCTYPE = "Document";
 
     //Fields to watch
-    public static final String FIELD_NAME = "sironadoc:sap_part_numbers";
+    public static final String FIELD_NAME = "dc:created";
 
     //Not in Event Constants
     private static final String LIFECYCLE_TRANSITION_EVENT = "lifecycle_transition_event";

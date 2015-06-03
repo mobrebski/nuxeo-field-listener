@@ -5,30 +5,16 @@
   <parent>
     <groupId>org.nuxeo.ecm.platform</groupId>
     <artifactId>nuxeo-features-parent</artifactId>
-    <version>5.8</version>
+    <version>7.2</version>
   </parent>
-  <groupId>org.nuxeo.sirona</groupId>
+  <groupId>org.nuxeo.fieldListener</groupId>
   <artifactId>nuxeo-sirona-sap</artifactId>
   <version>1.0</version>
-  <name>nuxeo-sirona-sap</name>
+  <name>nuxeo-field-listener</name>
   <description/>
-  <!-- <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.nuxeo.ecm.distribution</groupId>
-        <artifactId>nuxeo-distribution</artifactId>
-        <scope>import</scope>
-        <type>pom</type>
-        <version>5.8</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement> -->
+
   <dependencies>
-    <!--<dependency>
-      <groupId>nuxeo-studio</groupId>
-      <artifactId>mobrebski-SANDBOX</artifactId>
-      <version>0.0.0-SNAPSHOT</version>
-    </dependency> -->
+
     <dependency>
       <groupId>org.nuxeo.common</groupId>
       <artifactId>nuxeo-common</artifactId>
@@ -106,14 +92,7 @@
   </dependencies>
   <build>
     <plugins>
-      <!-- <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
-      </plugin> -->
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-eclipse-plugin</artifactId>

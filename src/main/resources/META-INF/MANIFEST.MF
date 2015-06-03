@@ -1,16 +1,13 @@
 Manifest-Version: 1.0
-Bundle-SymbolicName: nuxeo-sirona-sap
+Bundle-SymbolicName: nuxeo-field-listener
 Bundle-Version: 1.0.qualifier
-Bundle-Name: nuxeo-sirona-sap
+Bundle-Name: nuxeo-field-listener
 Bundle-ClassPath: .
 Bundle-ActivationPolicy: lazy
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Vendor: Nuxeo
-Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.sirona.sap.FieldValueCh
- angeCaptureListener.xml,OSGI-INF/extensions/org.nuxeo.sirona.sap.Fiel
- dValueChangeActionListener.xml,OSGI-INF/service-connector-framework.x
- ml,OSGI-INF/extensions/org.nuxeo.sirona.sap.migrate.MigratePartNumber
- Field.xml,OSGI-INF/extensions/org.nuxeo.sirona.sap.migrate.BulkSyncSA
- PPartNumbers.xml
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.fieldListener.FieldValu
+ eChangeActionListener.xml,OSGI-INF/extensions/org.nuxeo.fieldListener
+ .FieldValueChangeCaptureListener.xml
 
