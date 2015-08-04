@@ -8,6 +8,5 @@ Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Vendor: Nuxeo
 Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.fieldListener.FieldValu
- eChangeActionListener.xml,OSGI-INF/extensions/org.nuxeo.fieldListener
- .FieldValueChangeCaptureListener.xml
+ eChangeCaptureListener.xml
 

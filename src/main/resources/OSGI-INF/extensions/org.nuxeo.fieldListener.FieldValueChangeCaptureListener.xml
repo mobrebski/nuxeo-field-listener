@@ -1,17 +1,24 @@
 
-<component name="org.nuxeo.sirona.sap.listener.contrib.FieldValueChangeListener">
+<component name="org.nuxeo.listener.contrib.FieldValueChangeListener">
 
   <extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
     point="listener">
 
     <listener name="fieldvaluechangelistener" async="false" postCommit="false"
-      class="org.nuxeo.sirona.sap.FieldValueChangeCaptureListener" priority="100">
+      class="org.nuxeo.fieldListener.FieldValueChangeCaptureListener" priority="100">
       <event>documentCreated</event>
       <event>aboutToRemove</event>
       <event>beforeDocumentModification </event>
       <event>beforeRestoringDocument</event>
       <event>documentRestored</event>
       <event>lifecycle_transition_event</event>
+    </listener>
+    
+    <listener name="fieldvaluechanceactionlistener" async="true" postCommit="false"
+      class="org.nuxeo.fieldListener.MyFieldValueChangeActionListener" priority="100">
+      <event>fieldModifiedEvent</event>
+      <event>fieldRemovedEvent</event>
+      <event>fieldCreatedEvent</event>
     </listener>
     
   </extension>

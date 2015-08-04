@@ -30,10 +30,10 @@ public class FieldValueChangeCaptureListener implements EventListener {
     private static final Log log = LogFactory.getLog(FieldValueChangeCaptureListener.class);
 
     //DocTypes to watch
-    public static final String DOCTYPE = "Document";
+    public static final String DOCTYPE = "File";
 
     //Fields to watch
-    public static final String FIELD_NAME = "dc:created";
+    public static final String FIELD_NAME = "dc:description";
 
     //Not in Event Constants
     private static final String LIFECYCLE_TRANSITION_EVENT = "lifecycle_transition_event";
